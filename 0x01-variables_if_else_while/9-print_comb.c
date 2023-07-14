@@ -14,12 +14,16 @@ int main(void)
 int a = '0';
 
 
-while (a < 58)
+while (a <= '8')
 {
 putchar(a);
 putchar(',');
 putchar(' ');
 a++;
+}
+while (a == '9')
+{
+putchar(a);
 }
 putchar('\n');
 return (0);
