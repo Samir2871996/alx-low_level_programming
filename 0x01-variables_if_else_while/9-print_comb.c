@@ -21,9 +21,6 @@ putchar(',');
 putchar(' ');
 a++;
 }
-while (a == '9')
-{
 putchar(a);
-}
 return (0);
 }
