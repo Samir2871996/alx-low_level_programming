@@ -20,26 +20,27 @@ int main(void)
 
 
 
-	while (a <= '9')
+	while (a <= 57)
 	{
 
-		while (b <= '9')
+		while (b <= 57)
 		{
 
 			c = a;
 			d = b + 1;
 
-			while (c <= '9')
+			while (c <= 57)
 			{
-				while (d <= '9')
+				while (d <= 57)
 				{
 
 					putchar(a);
 					putchar(b);
+					putchar(' ');
 					putchar(c);
 					putchar(d);
 
-					if ((a != '9') | (b != '8') | (c != '9') | (d != '9'))
+					if ((a != 57) | (b != 56) | (c != 57) | (d != 57))
 					{
 
 						putchar(',');
