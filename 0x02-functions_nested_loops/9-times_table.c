@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - a function that print out the N.O
+ * times_table - a function that print out the N.O
  *
 */
 
