@@ -19,9 +19,10 @@ int main(void)
 	{
 
 		_putchar(st[i]);
-		_putchar('\n');
 		i++;
 	}
+
+	_putchar('\n');
 
 	return (0);
 
