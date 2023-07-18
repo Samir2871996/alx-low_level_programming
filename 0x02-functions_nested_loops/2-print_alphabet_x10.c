@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
+ * print_alphabet_x10  - Entry point
  *
- * Descreption: A c function that prints thelower
+ * Description: A c function that prints tha alphapets 10 times
  *
  * Return Always void
 */
