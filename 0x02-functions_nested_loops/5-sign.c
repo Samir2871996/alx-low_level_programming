@@ -26,6 +26,7 @@ _putchar('\n');
 }
 else  if (n < 0)
 {
+_putchar('-');
 return (-1);
 _putchar('\n');
 }
