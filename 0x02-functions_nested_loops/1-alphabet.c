@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Descriptio A c function that print the lowers
- * Return: Always 0 (sucess)
+ * print_alphabet - Entry point
+ *
+ * Descreption: A c function that prints thelower
+ *
+ * Return Always void
 */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet ();
-	return (0);
+
+	char i = 'a';
+
+	while (i <= 'z')
+	{
+
+		_putchar(i);
+	}
+	_putchar('\n');
 }
