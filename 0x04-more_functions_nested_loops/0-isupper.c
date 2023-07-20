@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * isupper - a function that checks for upper cases
  * @c: an integer
