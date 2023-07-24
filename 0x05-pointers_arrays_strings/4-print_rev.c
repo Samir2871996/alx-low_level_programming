@@ -21,5 +21,7 @@ void print_rev(char *s)
 		length--;
 		s--;
 	}
+	_putchar('\n');
+
 }
 
