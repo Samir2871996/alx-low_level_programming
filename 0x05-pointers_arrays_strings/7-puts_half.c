@@ -15,7 +15,6 @@ void puts_half(char *str)
 		len_of_arr++;
 		p++;
 	}
-	len_of_arr--;
 	if (len_of_arr % 2 != 0)
 	{
 		str = str + ((len_of_arr - 1) / 2);
